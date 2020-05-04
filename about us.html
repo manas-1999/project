@@ -1,17 +1,19 @@
 <html>
 <head>
 	<title>About me</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	 <script src="https://kit.fontawesome.com/dd09055a87.js" crossorigin="anonymous"></script>
 <style>
 
 	.container{
 
-		background-color: #DCDCDC;
+	
 		height:450px;
 		width:100%;
-		height:100%;
+		height:80%
 		margin-top: 30px;
+		border-bottom: 2px grey solid;
 		
 		
 
@@ -30,8 +32,7 @@
            
               display:flex;
               height:100%;
-              border-bottom: 1px red solid;
-              border-bottom-width: 1px;
+              
 	}
 
 	.img_set{
@@ -43,16 +44,28 @@
 	}
 
 .footer-bottom {
-background:#303a40;
-color:#fff;
+color:#000;
 font-size: 15px;
-height:50px;
+display:flex;
+height:30px;
 width:100%;
-text-align:center;
 position:fixed;
 bottom:0px;
 left:0px;
-padding-top:20px;
+padding-top:10px;
+margin-bottom: 10px;
+}
+.socials{
+
+flex:1;
+height:20px;
+margin-bottom:500px;
+margin-left:800px;
+text-align:center;
+display:inline-block;
+font-size:1.8em;
+border-radius:5px;
+transition: all.3s;
 }
 
 
@@ -70,6 +83,7 @@ h1{
 	border-bottom-width:thin;
 	border-bottom-style: solid;
 	font-family: bold;
+	box-sizing: border-box;
 }
 
 
@@ -81,7 +95,7 @@ h1{
 	<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Book shelf.com</a>
+      <a class="navbar-brand" href="#">Book shelf</a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="home.html">Home</a></li>
@@ -97,7 +111,7 @@ h1{
 		
              <div class="content">
 			<div class=img_set>
-			<img src="https://github.com/manas-1999/project/blob/master/pic2.jpg?raw=true" alt="My pic" width=92%; height=400px; style="padding:20px;">
+			<img src="https://github.com/manas-1999/project/blob/master/pic2.jpg?raw=true" alt="My pic" width=92%; height=400px; style="padding:20px;" "border-radius: 50%;">
 		</div>
 	
 			<div class="text_about about">
@@ -114,12 +128,15 @@ teleporation. while there are many, ways to discover events and places we realiz
 
 </div>
 <div class="footer-bottom">
+	<div class="copyright">
 &copy;Digital_View|Design by Manas sharma
-<div class="social_links">
+</div>
+<div class="socials">
 	<a href="#"><i class="fab fa-facebook"></i></a>
 <a href="#"><i class="fab fa-instagram"></i></a>
 <a href="#"><i class="fab fa-twitter"></i></a>
 <a href="#"><i class="fab fa-youtube"></i></a>
+	
 	</div>
 </div>
 
