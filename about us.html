@@ -6,13 +6,13 @@
 	 <script src="https://kit.fontawesome.com/dd09055a87.js" crossorigin="anonymous"></script>
 <style>
 
-	.container{
+	.conatiner{
 
 	
-		height:70%;
-		width:100%;
-		margin-top: 30px;
-		border-bottom: 2px grey solid;
+		height:100vh;
+		display:flex;
+		text-align: center;
+		align-items: center;
 		min-height: 250px;
 		min-width:10px;
 		
@@ -21,15 +21,7 @@
 	
 	}
 
-	.navbar-brand
-	{
-
-		background-image: url("https://github.com/manas-1999/project/blob/master/logo%20img.jpg?raw=true");
-		background-size: 100%;
-		background-blend-mode: normal;
-        background-repeat: no-repeat;
-        width:50%;
-	}
+	
 
 	.about h1 span{
 
@@ -55,22 +47,26 @@
            
 	}
 
-	.img_set img{
+	.img-wrap{
 
-		border-radius: 50%;
-		min-width:150px;
-        min-height: 130px;
-        max-width: 70%;
-        max-height: 80%;
+		width:100%;
 	}
 
+	.img-wrap img
+{
+  width:100%;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #999999
+
+}
 .footer-bottom {
 color:#000;
 font-size: 15px;
 display:flex;
 height:7%;
 width:100%;
-position:fixed;
+position:relative;
 bottom:0px;
 left:0px;
 padding-top:10px;
@@ -121,7 +117,7 @@ h1{
 	<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">navbar-brand</a>
+      <a class="navbar-brand" href="#">books site.com</a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="home.html">Home</a></li>
@@ -134,21 +130,22 @@ h1{
 
              <h1>About Us &nbsp;</h1>
 	<div class="container">
-		
-             <div class="content">
-			<div class=img_set>
-			<img src="https://github.com/manas-1999/project/blob/master/pic2.jpg?raw=true" alt="My pic">
-		</div>
-	
-			<div class="text_about about">
+		<div class="row">
+            <div class="col-sm-7">
+	          <h2 class="text-center">Mr.Manas sharma</h2>
+			
 			<p>Just over a year ago, we beacme fascinated by the idea of discovering the world through someone else's eyes.What if you could see through the eyes of a protester in Ukarine? Or watch the sunrise from a hot air balloon in cappadocia? it may sound crazy, but we wanted to build the closest thing to 
 teleporation. while there are many, ways to discover events and places we realized there is no better way to experience a place right now than through live  video. A picture may be worth a thousand words, but live video can take you someplace and show you around.
                     buller's what is also used as a name to the surrounding area, otherwise called shad themes after the main local street.</p>
                     <p>When it comes to personalizing your online store, nothing is more effective than an About Us page. This is a quick summary of your company's history and purpose, and should provide a clear overview of the company's brand story. A great About Us page can help tell your brand story, establish customer loyalty, and turn your bland ecommerce store into an well-loved brand icon. Most importantly, it will give your customers a reason to shop from your brand. In this post, we'll give you three different ways to create a professional about us page for your online store, blog, or other website - use our about us page generator, use the fill-in-the-blank about us template below, or create your own custom page using the about us examples within this article.</p>
 
-				<div class="social_links">
-				</div>
+				
 			</div>
+
+			  <div class="col-sm-5">
+			<div class="img-wrap">
+			<img src="https://github.com/manas-1999/project/blob/master/pic2.jpg?raw=true" alt="My pic">
+		</div>
 
                   </div>
 
