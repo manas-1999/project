@@ -7,21 +7,116 @@
 }
 
 .wrapper{
-	 background:url(https://github.com/manas-1999/project/blob/master/file.jpg?raw=true);
-	background-repeat: no-repeat;
+	 background:url(hat.jpg) no-repeat;
       background-size: cover;
-      height: 100%vh;
+      height: 100vh;
+}
+.navbar{
+     height:80px;
+	width: 100%;
+	background:rgba(0, 0, 0, 0.4);
 }
 
-.footer-bottom {
-background:#303a40;
-color:#fff;
-font-size: 15px;
-height:50px;
-width:100%;
-text-align:center;
-position:fixed;
-bottom:0px;
-left:0px;
-padding-top:10px;
+.logo{
+
+	width:140px;
+      height:auto;
+      padding: 20px ;
+}
+
+.navbar ul{
+
+	float: right;
+    padding: 10px;
+    margin-right: 20px;
+
+}    
+
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+    display: inline-block;
+    line-height: 65px;
+}
+
+
+.navbar ul li a{
+
+    color: white;
+	outline: none;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding:6px 13px;
+	font-size: 20px;
+	transition:.4s;
+
+}
+.navbar a:hover{
+	background-color: red;
+}
+
+.navbar ul li a.active{
+
+	background:red;
+	border-radius:2px;
+}
+
+
+
+.center{
+
+ 	position: absolute;
+     top:30%;
+     left:15%;
+      transform: translate(-50% -50%);
+      font-family: sans-serif;      
+
+} 
+
+.center h1{
+
+	color: white;
+	font-size: 70px;
+	width:950px;
+	font-weight: bold;
+      text-align: center;
+       user-select: none;
+} 
+
+.center h2{
+
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+      text-align: center;
+      margin-top: 10px;
+      user-select: none;
+} 
+
+.buttons
+{  
+
+   margin:8px 380px;
+  
+}
+
+.buttons button{
+
+	background:red;
+	height: 50px;
+	width: 180px;
+	border-radius: 25px;
+	font-size: 18px;
+	font-weight: bold;
+	color:#ffb3b3;
+	border:1px solid #cc0000;
+	cursor: pointer;
+	transition: .5s;
+  
+}
+
+.buttons button:hover{
+
+	background:#cc0000;
 }
