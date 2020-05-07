@@ -19,6 +19,61 @@
 		
 }
 
+.navbar{
+     height:80px;
+	width: 100%;
+	background:rgba(0, 0, 0, 0.4);
+}
+
+.logo{
+
+	width:140px;
+      height:auto;
+      padding: 20px ;
+}
+
+.navbar ul{
+
+	float: right;
+    padding: 10px;
+    margin-right: 20px;
+
+}    
+
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+    display: inline-block;
+    line-height: 65px;
+}
+
+
+.navbar ul li a{
+
+    color: white;
+	outline: none;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding:6px 13px;
+	font-size: 20px;
+	transition:.4s;
+
+}
+.navbar a:hover{
+	background-color: red;
+}
+
+.navbar ul li a.active{
+
+	background:red;
+	border-radius:2px;
+}
+
+
+
+
+
 	
 
 	.about h1 span{
@@ -108,19 +163,15 @@ h1{
 
 
 <body>
-	<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">books site.com</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="home.html">Home</a></li>
-      <li><a href="">Books</a></li>
+<div class="navbar">
+	<img class="logo" src="book.jpg">
+   <ul>
+   	<li><a class="active"href="home.html">Home</a></li>
+     <li><a href="about us.html">About us</a></li>
       <li><a href="#">Trending</a></li>
-      <li><a href="about us.html">About us</a></li>
-    </ul>
-  </div>
-</nav>
+      <li><a href="#">Books</a></li>
+</ul>
+</div>
 
              <h1>About Us &nbsp;</h1>
 	<div class="container">
