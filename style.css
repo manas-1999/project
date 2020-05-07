@@ -10,7 +10,8 @@
 	 background:url(https://github.com/manas-1999/project/blob/master/file.jpg?raw=true);
 	background-repeat: no-repeat;
       background-size: cover;
-      height: 100vh;
+      height: 100%;
+	width:100%
 }
 
 .footer-bottom {
