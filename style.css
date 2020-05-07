@@ -1,0 +1,27 @@
+
+*{
+
+
+	padding: 0px;
+	margin: 0px;
+}
+
+.wrapper{
+	 background-image: url("file.jpg");
+	background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+}
+
+.footer-bottom {
+background:#303a40;
+color:#fff;
+font-size: 15px;
+height:50px;
+width:100%;
+text-align:center;
+position:fixed;
+bottom:0px;
+left:0px;
+padding-top:10px;
+}
