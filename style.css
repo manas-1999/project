@@ -65,13 +65,31 @@
 
 .Books{
  
-     display:inline-flex;
+     display:flex;
      margin-left: 10px;
      padding-left: 20px;
      transition: .5s;   
 
 
 }
+
+
+
+.Books2{
+ 
+     display:flex;
+     margin-left: 10px;
+     padding-left: 20px;
+     transition: .5s;   
+
+
+}
+
+.book2
+{
+   flex-direction: row;
+}
+
 
 .book1
 {
@@ -135,4 +153,9 @@
 .buttons button:hover{
 
 	background:#cc0000;
+}
+.science{
+	 margin-bottom: 30px;
+     position: absolute;
+	 right: 10%;
 }
