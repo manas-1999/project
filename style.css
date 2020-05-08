@@ -21,7 +21,7 @@
 
 	width:140px;
       height:auto;
-      padding: 20px ;
+      padding:20px ;
 }
 
 .navbar ul{
@@ -60,6 +60,21 @@
 
 	background:red;
 	border-radius:2px;
+}
+
+
+.Books{
+ 
+     display:inline-flex;
+     margin-left: 10px;
+     padding-left: 20px;   
+
+
+}
+
+.book1
+{
+   flex-direction: row;
 }
 
 
