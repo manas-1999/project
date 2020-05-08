@@ -67,7 +67,8 @@
  
      display:inline-flex;
      margin-left: 10px;
-     padding-left: 20px;   
+     padding-left: 20px;
+     transition: .5s;   
 
 
 }
