@@ -1,25 +1,212 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title> Contact us</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<title>Contact us</title>
+
+</head>
+
 <style>
-input[type=text]
+
+
+
+	
+#Message{
+
+	margin-top: 20px;
+	
+}
+
+p::selection{
+
+	background-color: yellow;
+	color: grey;
+}
+
+input[type="Message"]
 {
 
-	background-color:grey;
-    color:white;
- 
+height: 100px;
+  
+}
+
+
+
+div{
+	padding: 5px;
+}
+
+
+
+#form
+{
+
+	position: absolute;
+	left: 25%;
+	top: 20%;
+	transition: .4s;
+    margin-top: 30px;
+   
+
+
+}
+
+input [name="First name"]
+{
+   height: 200px;
+}
+
+
+{
+
+	padding: 10px;
+}
+
+h1{
+
+
+transition: .5s;
+color: black;
+text-align: center;
+
+
+}
+
+
+body{
+
+background:url(hello.jpg) no-repeat;
+background-size: cover;
+height: 100%;
+width:100%;
+
 }
 
 </style>
+
+
+
 <body>
- <form>
- 	<input type="text" name="name" placeholder="Enter your name">
- 	<input type="text" name="name" placeholder="Enter your Last name">
- 	<input type="number" name="name" placeholder="Enter your Age">
+<div class="navbar">
+	<img class="logo" src="book.jpg">
+   <ul>
+   	<li><a class="active"href="home.html">Home</a></li>
+     <li><a href="books.html">Books</a></li>
+      <li><a href="trending.html">Trending</a></li>
+     <li><a href="about us.html">About us</a></li>
+     <li><a href="form.html">Conatct us</a></li>
+</ul>
+</div>
+
+<h1>We are always ready here to serve you!</h1>
+
+<div class="container">
 
 
- </form>
 
-	</body>
-</head>
+<form id="form">
+	<div>
+		<p style="color: black" "font-weight: bold;" "font-size:180px;" "font-family:sans-serif;">First name</p>
+
+	<input type="text" name=" First name"  placeholder="Enter you first name" size="80">
+   
+</div>
+<p style="color: black" "font-weight: bold;" "font-size:180px;" "font-family:sans-serif;">Last Name</p>
+
+<div> <input type="text" name="Last name" placeholder="Enter your Last name"size="80"></div>
+
+<div>
+	<p style="color: black" "font-weight: bold;" "font-size:180px;" "font-family:sans-serif;">Gender</p>
+
+	<input type="radio" name="Gender" value="Male">Male
+	<input type="radio" name="Gender" value="Female">Female
+	<input type="radio" name="Gender" value="Other">Other
+</div>
+
+<div>
+	<input name="Country" list="countries" placeholder="Country" size="70">
+    <datalist id="countries">
+    	<option value="Afghanistan"></option>
+    	<option value="Albania"></option>
+    	<option value="Algeria"></option>
+    	<option value="Angola"></option>
+    	<option value="Bangladesh"></option>
+    	<option value="Belgium"></option>
+    	<option value="Benin"></option>
+    	<option value="Bhutan"></option>
+    	<option value="Canada"></option>
+    	<option value="Cambodia"></option>
+    	<option value="China"></option>
+    	<option value="Cyprus"></option>
+    	<option value="Dominica"></option>
+    	<option value="Denmark"></option>
+    	<option value="Egypt"></option>
+    	<option value="Estonia"></option>
+    	<option value="Finland"></option>
+    	<option value="France"></option>
+    	<option value="Germany"></option>
+    	<option value="Greece"></option>
+    	<option value="Guyana"></option>
+    	<option value="Iceland"></option>
+    	<option value="India"></option>
+    	<option value="Indonesia"></option>
+    	<option value="Israel"></option>
+    	<option value="Iraq"></option>
+    	<option value="Japan"></option>
+    	<option value="Jordan"></option>
+         <option value="Kazakhstan"></option>
+         <option value="Kiribati"></option>
+         <option value="Kuwait"></option>
+         <option value="Latvia"></option>
+         <option value="Luxembourg"></option>
+         <option value="Malaysia"></option>
+         <option value="Maldives"></option>
+         <option value="Mali"></option>
+         <option value="Malta"></option>
+         <option value="Monaco"></option>
+         <option value="Myanmar"></option>
+         <option value="New Zealand"></option>
+         <option value="Netherlands"></option>
+         <option value="North Korea"></option>
+         <option value="Oman"></option>
+         <option value="Pakistan"></option>
+         <option value="Poland"></option>
+          <option value="Romania"></option>
+           <option value="Russia"></option>
+            <option value="Saint Lucia"></option>
+             <option value="Saudi Arabia"></option>
+              <option value="Singapore"></option>
+               <option value="South Africa"></option>
+                <option value="Sri Lanka"></option>
+                 <option value="Thailand"></option>
+                  <option value="Tonga"></option>
+                   <option value="Turkey"></option>
+                    <option value="United Kingdom"></option>
+                     <option value="United States of America"></option>
+                      <option value="Uzbekistan"></option>
+                      <option value="Vanuatu"></option>
+                      <option value="Venezuela"></option>
+                      <option value="Vietnam"></optiion>
+                      	<option value="Yemen"></option>
+                      	<option value="Zambia"></option>
+                      	<option value="Zimbabwe"></option>
+    	
+    	
+
+
+
+
+    </datalist>
+<div id="Message">
+<p style="color: black" "font-weight: bold;" "font-size:180px;" "font-family:sans-serif;">Your message</p>
+	<input type="Message" name="Message" placeholder="Enter your Message"size="80">
+</div>
+</div>
+</form>
+</div>
+
+
+
+</body>
 </html>
