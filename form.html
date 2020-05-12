@@ -12,12 +12,34 @@
 <style>
 
 
+@media only screen and (max-width: 600px;)
+{
+
+.wrap{
+
+	background:url(hat.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+
+
+input[type="text"]
+{
+
+	size: 40px;
+}
 
 	
-#Message{
+}
 
-	margin-top: 20px;
-	
+.wrap{
+
+	 background:url(contactus.jpg) no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
 }
 
 p::selection{
@@ -45,8 +67,6 @@ div{
 {
 
 	position: absolute;
-	left: 25%;
-	top: 20%;
 	transition: .4s;
     margin-top: 30px;
    
@@ -54,16 +74,8 @@ div{
 
 }
 
-input [name="First name"]
-{
-   height: 200px;
-}
 
 
-{
-
-	padding: 10px;
-}
 
 h1{
 
@@ -76,19 +88,14 @@ text-align: center;
 }
 
 
-body{
 
-background:url(hello.jpg) no-repeat;
-background-size: cover;
-height: 100vh;
-
-}
 
 </style>
 
 
 
 <body>
+	<div class="wrap">
 <div class="navbar">
 	<img class="logo" src="book.jpg">
    <ul>
@@ -102,6 +109,8 @@ height: 100vh;
 
 <h1>We are always ready here to serve you!</h1>
 
+
+
 <div class="container">
 
 
@@ -113,9 +122,13 @@ height: 100vh;
 	<input type="text" name=" First name"  placeholder="Enter you first name" size="80">
    
 </div>
-<p style="color: black" "font-weight: bold;" "font-size:180px;" "font-family:sans-serif;">Last Name</p>
 
-<div> <input type="text" name="Last name" placeholder="Enter your Last name"size="80"></div>
+
+<div> 
+     <p style="color: black" "font-weight: bold;" "font-size:180px;" "font-family:sans-serif;">Last Name</p>
+	<input type="text" name="Last name" placeholder="Enter your Last name"size="80">
+
+</div>
 
 <div>
 	<p style="color: black" "font-weight: bold;" "font-size:180px;" "font-family:sans-serif;">Gender</p>
@@ -199,12 +212,13 @@ height: 100vh;
 
 </option>
     </datalist>
+</div>
 <div id="Message">
 <p style="color: black" "font-weight: bold;" "font-size:180px;" "font-family:sans-serif;">Your message</p>
 	<input type="Message" name="Message" placeholder="Enter your Message"size="80">
 </div>
-</div>
 </form>
+</div>
 </div>
 
 
