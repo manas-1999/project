@@ -30,3 +30,23 @@
 
 }
 
+%logo{
+	width:140px;
+      height:auto;
+      padding:20px ;
+}
+
+%bar{
+	   height:80px;
+	width: 100%;
+	background:rgba(0, 0, 0, 0.4);
+}
+
+
+.logo{
+	@extend %logo;
+}
+
+.navbar{
+	@extend %bar;
+}
