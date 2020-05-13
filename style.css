@@ -24,34 +24,7 @@
       padding:20px ;
 }
 
-.navbar ul{
 
-	float: right;
-    padding: 10px;
-    margin-right: 2%;
-
-}    
-
-.navbar ul li{
-	list-style: none;
-	margin: 0 8px;
-    display: inline-block;
-    line-height: 65px;
-}
-
-
-.navbar ul li a{
-
-    color: white;
-	outline: none;
-	text-decoration: none;
-	font-family: sans-serif;
-	font-weight: bold;
-	padding:6px 13px;
-	font-size: 20px;
-	transition:.4s;
-
-}
 .navbar a:hover{
 	background-color: red;
 }
@@ -74,25 +47,6 @@
 
 } 
 
-.center h1{
-
-	color: white;
-	font-size: 70px;
-	width:950px;
-	font-weight: bold;
-      text-align: center;
-       user-select: none;
-} 
-
-.center h2{
-
-	color: white;
-	font-size: 70px;
-	font-weight: bold;
-      text-align: center;
-      margin-top: 10px;
-      user-select: none;
-} 
 
 .buttons
 {  
